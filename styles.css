@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #DCF5E8; /* Couleur de fond vert pâle */
+    height: 100vh; /* Hauteur complète de la fenêtre */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none; /* Supprimer la bordure par défaut */
+    border-radius: 5px; /* Bords arrondis pour les boutons */
+}
+
+#luckButton {
+    background-color: #FFBF00; /* Couleur de fond blanc */
+    color: black; /* Couleur de texte noir */
+}
+
+#loveButton {
+    background-color: #FFFFFF; /* Couleur de fond vert pâle */
+    color: black; /* Couleur de texte noir */
+}
+
+#messageArea {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
